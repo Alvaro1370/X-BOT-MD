@@ -10,9 +10,9 @@ if (fs.existsSync('config.env')) {
 const API = "https://api-aswin-sparky.onrender.com";
 const ALIVE = process.env.ALIVE || "I am Alive";
 const HANDLERS = process.env.HANDLER || ".";
-const SESSION_ID = process.env.SESSION_ID || "";
+const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:6b9ea94fc717fd615d3391fbf47ac5e5";
 const SUDO = process.env.SUDO || '917012984396';
-const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
+const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "flase";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
